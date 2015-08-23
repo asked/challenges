@@ -3,24 +3,27 @@ public class CheckWord
 {
     
         
-        /*A handful of words have their letters in alphabetical order, that is nowhere in the word do you change direction in the word if you were to scan along the English alphabet. An example is the word "almost", which has its letters in alphabetical order.
+        /*A handful of words have their letters in alphabetical order, 
+         * that is nowhere in the word do you change direction in the word
+         *  if you were to scan along the English alphabet.
+         *  An example is the word "almost", 
+         * which has its letters in alphabetical order.
     
-         Your challenge today is to write a program that can determine if the letters in a word are in alphabetical order. */
-        
+         Your challenge today is to write a program that can determine
+         *  if the letters in a word are in alphabetical order. */
+        // Written By:Nader Yafi
   private String[] words ={
-							"biopsy",
-							"chinos",
-							"defaced",
-							"chintz",
-							"sponged",
-							"bijoux",
-							"abhors",
-							"begins",
-							"chimps",
-							"wronged"
-    						  
-		
-							};
+	"biopsy",
+	"chinos",
+	"defaced",
+	"chintz",
+	"sponged",
+	"bijoux",
+	"abhors",
+	"begins",
+	"chimps",
+	"wronged"
+	};
     
     public char[] array=
     {'a','b','c','d', 'e', 'f', 'g',
@@ -72,5 +75,3 @@ public class CheckWord
         new CheckWord();
     }
 }
-
-
