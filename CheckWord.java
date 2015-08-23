@@ -59,7 +59,7 @@ public class CheckWord
                 }else{
 					if (l == 25){
 						System.out.println(str+"  NOT in Order");	
-                   		 break;
+                   				 break;
 					}
 					else		
 						 l++;
